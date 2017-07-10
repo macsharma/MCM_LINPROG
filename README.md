@@ -1,0 +1,2 @@
+# MCM
+Minimal complexity machines
