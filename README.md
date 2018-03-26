@@ -2,7 +2,7 @@
 The VC dimension measures the complexity of a learning machine, and a low VC dimension leads to good generalization. While SVMs produce state-of-the-art learning performance, it is well known that the VC dimension of a SVM can be unbounded; despite good results in practice, there is no guarantee of good generalization. In this paper, we show how to learn a hyperplane classifier by minimizing an exact, or Θ bound on its VC dimension. The proposed approach, termed as the Minimal Complexity Machine (MCM), involves solving a simple linear programming problem. Experimental results show, that on a number of benchmark datasets, the proposed approach learns classifiers with error rates much less than conventional SVMs, while often using fewer support vectors. On many benchmark datasets, the number of support vectors is less than one-tenth the number used by SVMs, indicating that the MCM does indeed learn simpler representations.
 
 ## Code
-The code is written in Matlab
+The code is written in Matlab, and uses linprog to solve the optimization problem
 
 ## Examples
 Here we present the algorithms and 22 UCI datasets, for users to test their code on.
